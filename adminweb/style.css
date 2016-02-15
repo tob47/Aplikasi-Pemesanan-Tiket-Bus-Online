@@ -1,0 +1,117 @@
+body{
+	font-family: Tahoma;
+  text-align: center; 
+}
+#header {
+	position: relative;
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 930px;
+	border: 2px solid #0284b5;
+	padding-top: 70px;
+	text-align: left;
+}
+
+#content {
+	margin-left: 230px;
+	padding: 20px 10px 0 0;
+}
+#content p {
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+  position: relative;
+  float: left;
+	top: 37px;
+	left: 0;
+	width: 180px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 180px;
+	border-bottom: 1px solid #969BA5;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #0284b5;
+	border-right: 1px solid #0284b5;
+	background-color: #e8f7fc;
+	color: #0284b5;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #0284b5;
+	color: #FFFFFF;
+}
+
+a:link,a:visited {
+  color:#0284b5;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {
+	font: normal 120% Georgia;
+	color: #0284b5;
+	background-color: transparent;
+	border-bottom: 1px dotted #0284b5;
+}
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #0284b5;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+#footer{
+  clear :both;
+	padding: 20px 0 10px 255px;
+	font-size: 70%;
+	color: #0085b4;
+	background-color: #e8f7fc;
+}

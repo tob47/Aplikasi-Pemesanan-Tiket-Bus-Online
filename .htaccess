@@ -1,0 +1,24 @@
+RewriteEngine on
+
+RewriteRule ^home$ media.php?module=home [L]
+RewriteRule ^profil-kami\.html$ media.php?module=profilkami&id=$1 [L]
+RewriteRule ^cara-pemesanan\.html$ media.php?module=carapesan&id=$1 [L]
+RewriteRule ^produk-(.*)\.html$ media.php?module=detailproduk&id=$1 [L]
+RewriteRule ^keranjang-(.*)\.html$ media.php?module=keranjangbelanja&id=$1 [L]
+RewriteRule ^selesai-(.*)\.html$ media.php?module=selesaibelanja&id=$1 [L]
+RewriteRule ^kategori-([0-9]+)-(.*)\.html$ media.php?module=detailkategori&id=$1 [L]
+RewriteRule ^halkategori-([0-9]+)-(.*)\.html$ media.php?module=detailkategori&id=$1&halkategori=$2 [L]
+RewriteRule ^simpan-transaksi\.html$ media.php?module=simpantransaksi&id=$1 [L]
+RewriteRule ^simpan-transaksi-member\.html$ media.php?module=simpantransaksimember&id=$1 [L]
+RewriteRule ^hubungi-kami\.html$ media.php?module=hubungikami [L]
+RewriteRule ^hubungi-aksi\.html$ media.php?module=hubungiaksi [L]
+RewriteRule ^lupa-password\.html$ media.php?module=lupapassword [L]
+RewriteRule ^kirim-password\.html$ media.php?module=kirimpassword [L]
+RewriteRule ^semua-produk\.html$ media.php?module=semuaproduk [L]
+RewriteRule ^halproduk-(.*)\.html$ media.php?module=semuaproduk&halproduk=$1 [L]
+RewriteRule ^hasil-pencarian\.html$ media.php?module=hasilcari&id=$1 [L]
+RewriteRule ^cektiket\.html$ media.php?module=cektiket&id=$1 [L]
+RewriteRule ^cekjadwal\.html$ media.php?module=cekjadwal&id=$1 [L]
+RewriteRule ^pesan-(.*)\.html$ media.php?module=pesan&id=$1 [L]
+
+Options All -Indexes
